@@ -12,7 +12,7 @@ public class Test {
 			int num = sc.nextInt();
 			System.out.println("Squere is "+ num * num);
 		} catch (Exception e) {
-			// TODO: handle exception
+			System.out.println("Failed! "+e);
 		}
 	}
 
